@@ -28,3 +28,41 @@
 	font-size: 14px;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .topicos__titulo {
+        font-size: 24px;
+    }
+    
+    .topicos__itens {
+        padding: 0 1em;
+    }
+    .topicos__link {
+        font-size: 24px;
+    }
+    
+}
+
+@media screen and (min-width: 1728px) {
+
+    .topicos {
+        padding: 3em;
+    }
+   
+    .topicos__titulo {
+        font-size: 32px;
+    }
+
+    .topicos__lista {
+        width: 60%;
+        margin: auto;
+    }
+
+    .topicos__itens {
+        padding: 1em 1em;
+    }
+
+
+    
+}

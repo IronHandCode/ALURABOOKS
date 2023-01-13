@@ -6,6 +6,7 @@
 @import url("styles/contato.css");
 @import url("styles/rodape.css");
 
+
 :root {
 	--cor-de-fundo: #ebecee;
 	--branco: #FFFFFF;
@@ -15,7 +16,11 @@
 	--azul: #002F52;
 	--preto-texto: rgba(0, 0, 0, 0.85);
 	--azul-contato: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-	
+	--font-secundaria: "Josefin Sans";
+	--preto: #000000;
+	--cinza: #858585;
+	--cinza-link: #474646;
+	--fundo-rodape: #F9F9F9;
 }
 
 body {

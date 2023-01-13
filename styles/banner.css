@@ -36,3 +36,63 @@
 	background-position: 1em;
 }
 
+ .container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
+	background-image: url("../img/MenuAberto.svg");
+ }
+
+ .container__botao:checked~.container__rotulo {
+	background-color: var(--azul)
+ }
+
+
+
+@media screen and (min-width: 1024px) {
+	.banner {
+		padding: 6em 0;
+	}
+
+	.banner__titulo {
+		font-size: 36px;
+	}
+
+	.banner__pesquisa {
+		font-size: 16px;
+		width: 50%;
+	}
+
+	.banner__pesquisa::placeholder {
+		background-position: 5.8em;
+	}
+
+	.opcoes__botao:checked~.opcoes__rotulo>.opcoes__itens {
+		background: var(--azul-degrade);
+		color: var(--branco)
+	}
+
+	.opcoes__itens {
+		padding: 1em 2em;
+	}
+
+	.lista-menu__item:hover {
+		background: var(--azul-degrade);
+	}
+
+	.lista-menu__item:hover>.lista-menu__link {
+		-webkit-text-fill-color: var(--branco);
+		text-decoration: none;
+	}
+}
+
+@media screen and (min-width: 1728px) {
+	.banner {
+		padding: 7em 0;
+	}
+
+	.banner__pesquisa {
+		width: 35%;
+	}
+
+	.banner__pesquisa::placeholder {
+		background-position: 10em;
+	}
+}
